@@ -1,0 +1,143 @@
+body{
+    background-color: #122038;
+    font-family:  Helvetica;
+    margin: 0;
+    overflow: hidden;
+}
+
+.plaf{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    
+}
+
+.titre {
+    font-size: 45px;
+    margin-left: 20px;
+   
+    
+}
+
+.bloc1{
+    margin-left: 400px;
+    margin-top: 100px;
+    display: flex;
+    top: 50%;
+    left: 40%;
+    position: absolute;
+
+}
+
+.fleche{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    margin-top: 350px;
+    z-index: 3;
+    transition: 0.5s;
+    transform:  translateX(0) rotate(0deg);
+    
+}
+
+.flechette{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-top: 350px;
+    transform: translateX(30vh)rotate(180deg) ;
+}
+
+.MenuAvant{
+    height: 200vh;
+    width: 17%;
+    background: #B1A940;
+    position: fixed;
+    transition: 0.4s;
+    z-index: 1;
+    transform: translateX(-100%);  
+}
+
+.mm{
+    margin: 250px auto;
+    width: 75%;
+}
+.mm>a {
+    display: block;
+    margin: 35px;
+    text-decoration: none;
+    font-size: 18pt;
+    font-weight: bold;
+}
+.MenuApres{
+    
+    transform: translateX(0%);
+}
+.copyright{
+    color: #222F46;
+    margin-left: 10px;
+    margin-top: 350px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #B1A940;
+    position: relative;
+    height: 100vh;
+}
+
+
+main>a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #B1A940;
+    border: 3px #B1A940 solid;
+    border-radius: 50px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+    padding: 10px 30px;
+    font-size: 16pt;
+    letter-spacing: 2px;
+}
+
+.twitter{
+    display: flex;
+    z-index: 11;
+    position: absolute;
+    border: blue 1px solid;
+    top: 94%;
+    left: 91%;
+    font-size: 30px;
+    padding: 7px;
+    transition: 0.9s;
+    transform: translateY(-10px);
+}
+
+.twitter2{
+    transform: translateY(-395px);
+}
+.twitter-timeline{
+    position: absolute;
+}
+
+.twitt{
+    position: fixed !important;
+    z-index: 10 !important;
+    top: 47%;
+    left: 75%;
+    width:35%;
+    transition: 0.7s;
+    transform: translateY(1000px);
+}
+
+.twitt2{
+    transform: translateY(0px) ;
+}
