@@ -15,6 +15,3 @@ function twite(){
     this.classList.toggle("twitter2")
     document.querySelector(".twitt").classList.toggle("twitt2")
 }
-
-git commit --allow-empty -m "Trigger rebuild"
-git push
